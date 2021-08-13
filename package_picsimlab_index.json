@@ -14,7 +14,7 @@
           "version": "1.0.0",
           "category": "contributed",
           "help": {"online": "https://lcgamboa.github.io/picsimlab_docs/stable/"},
-          "url": "https://github.com/lcgamboa/picsimlab-arduino-package/raw/master/picsimlab-avr.zip",
+          "url": "https://github.com/lcgamboa/picsimlab-arduino-package/raw/main/picsimlab-avr.zip",
           "archiveFileName": "picsimlab-avr.zip",
           "checksum": "SHA-256:1bf349811dce5e12f6876b9612753be37c58ccf4dd8ed9d29ed1776190267d39",
           "size": "11677",
@@ -39,14 +39,14 @@
           "systems": [
             {
                 "host":"i686-mingw32",
-                "url":"https://github.com/lcgamboa/picsimlab-arduino-package/raw/master/files/pmicronucleus-win.zip",
+                "url":"https://github.com/lcgamboa/picsimlab-arduino-package/raw/main/files/pmicronucleus-win.zip",
                 "archiveFileName":"micronucleus-2.0a4-win.zip",
                 "checksum": "SHA-256:30d04b231a71b183a00d869c24914b5b6dc36ac534a81d046e5b5527234151af",
                 "size":"101026"
             },
             {
                 "host":"x86_64-linux-gnu",
-                "url":"https://github.com/lcgamboa/picsimlab-arduino-package/raw/master/files/pmicronucleus-linux64.tar.gz",
+                "url":"https://github.com/lcgamboa/picsimlab-arduino-package/raw/main/files/pmicronucleus-linux64.tar.gz",
                 "archiveFileName":"micronucleus-linux64.tar.gz",
                 "checksum": "SHA-256:28c4a0d6aca932660f6caa44772173acb831c0f70a426d9f81e8fd8eea68221e",
 		"size":"9965"
