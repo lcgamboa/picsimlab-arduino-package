@@ -33,8 +33,8 @@ uno.bootloader.file=optiboot/optiboot_atmega328.hex
 uno.build.mcu=atmega328p
 uno.build.f_cpu=16000000L
 uno.build.board=AVR_UNO
-uno.build.core=arduino
-uno.build.variant=standard
+uno.build.core=arduino:arduino
+uno.build.variant=arduino:standard
 
 ##############################################################
 
@@ -62,8 +62,8 @@ mega.bootloader.unlock_bits=0x3F
 mega.bootloader.lock_bits=0x0F
 
 mega.build.f_cpu=16000000L
-mega.build.core=arduino
-mega.build.variant=mega
+mega.build.core=arduino:arduino
+mega.build.variant=arduino:mega
 # default board may be overridden by the cpu menu
 mega.build.board=AVR_MEGA2560
 
