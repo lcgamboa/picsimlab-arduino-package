@@ -16,11 +16,18 @@ uno.pid.2=0x0043
 uno.vid.3=0x2341
 uno.pid.3=0x0243
 
-uno.upload.tool=avrdude
-uno.upload.protocol=arduino
+#uno.upload.tool=avrdude
+#uno.upload.protocol=arduino
 uno.upload.maximum_size=32256
 uno.upload.maximum_data_size=2048
-uno.upload.speed=115200
+#uno.upload.speed=115200
+
+uno.upload.tool=pmicronucleus
+uno.upload.protocol=usb
+uno.upload.using=pmicronucleusprog
+uno.upload.wait_for_upload_port=false
+uno.upload.use_1200bps_touch=false
+uno.upload.disable_flushing=false
 
 uno.bootloader.tool=avrdude
 uno.bootloader.low_fuses=0xFF
@@ -53,34 +60,33 @@ mega.pid.4=0x0210
 mega.vid.5=0x2341
 mega.pid.5=0x0242
 
-mega.upload.tool=avrdude
+#mega.upload.tool=avrdude
+mega.upload.tool=pmicronucleus
 mega.upload.maximum_data_size=8192
+#mega.upload.protocol=wiring
+mega.upload.maximum_size=253952
+#mega.upload.speed=115200
+mega.upload.protocol=usb
+mega.upload.using=pmicronucleusprog
+mega.upload.wait_for_upload_port=false
+mega.upload.use_1200bps_touch=false
+mega.upload.disable_flushing=false
 
 mega.bootloader.tool=avrdude
 mega.bootloader.low_fuses=0xFF
 mega.bootloader.unlock_bits=0x3F
 mega.bootloader.lock_bits=0x0F
+mega.bootloader.high_fuses=0xD8
+mega.bootloader.extended_fuses=0xFD
+mega.bootloader.file=stk500v2/stk500boot_v2_mega2560.hex
 
 mega.build.f_cpu=16000000L
 mega.build.core=arduino:arduino
 mega.build.variant=arduino:mega
 # default board may be overridden by the cpu menu
 mega.build.board=AVR_MEGA2560
+mega.build.mcu=atmega2560
 
-## Arduino Mega w/ ATmega2560
-## -------------------------
-mega.menu.cpu.atmega2560=ATmega2560 (Mega 2560)
-
-mega.menu.cpu.atmega2560.upload.protocol=wiring
-mega.menu.cpu.atmega2560.upload.maximum_size=253952
-mega.menu.cpu.atmega2560.upload.speed=115200
-
-mega.menu.cpu.atmega2560.bootloader.high_fuses=0xD8
-mega.menu.cpu.atmega2560.bootloader.extended_fuses=0xFD
-mega.menu.cpu.atmega2560.bootloader.file=stk500v2/stk500boot_v2_mega2560.hex
-
-mega.menu.cpu.atmega2560.build.mcu=atmega2560
-mega.menu.cpu.atmega2560.build.board=AVR_MEGA2560
 
 
 #Placa Franzininho DIY

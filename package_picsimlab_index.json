@@ -11,12 +11,12 @@
         {
           "name": "PICSimLab AVR Boards",
           "architecture": "avr",
-          "version": "1.0.0",
+          "version": "0.8.9",
           "category": "contributed",
           "help": {"online": "https://lcgamboa.github.io/picsimlab_docs/stable/"},
           "url": "https://github.com/lcgamboa/picsimlab-arduino-package/raw/main/picsimlab-avr.zip",
           "archiveFileName": "picsimlab-avr.zip",
-          "checksum": "SHA-256:2c244227ccd116e50ba24223c168393250c5a7599ac612642fd135cf85ed983c",
+          "checksum": "SHA-256:cad1fbfe119463fc99e9e2a288387c415fd785941f8399ba884297ef2c33c886",
           "size": "42209",
           "boards": [
             {"name": "Arduino Uno"},  
