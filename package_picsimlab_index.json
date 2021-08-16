@@ -17,7 +17,7 @@
           "url": "https://github.com/lcgamboa/picsimlab-arduino-package/raw/main/picsimlab-avr.zip",
           "archiveFileName": "picsimlab-avr.zip",
           "checksum": "SHA-256:cad1fbfe119463fc99e9e2a288387c415fd785941f8399ba884297ef2c33c886",
-          "size": "42209",
+          "size": "42214",
           "boards": [
             {"name": "Arduino Uno"},  
             {"name": "Breadboard Mega 2560"},  
