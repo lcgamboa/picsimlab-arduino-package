@@ -16,8 +16,8 @@
           "help": {"online": "https://lcgamboa.github.io/picsimlab_docs/stable/"},
           "url": "https://github.com/lcgamboa/picsimlab-arduino-package/raw/main/picsimlab-avr.zip",
           "archiveFileName": "picsimlab-avr.zip",
-          "checksum": "SHA-256:cad1fbfe119463fc99e9e2a288387c415fd785941f8399ba884297ef2c33c886",
-          "size": "42214",
+          "checksum": "SHA-256:446c6c7ccb4599f5e147f1da894ea00972ef2a3a04eff1f874ec14a0d79bfdbd",
+          "size": "42202",
           "boards": [
             {"name": "Arduino Uno"},  
             {"name": "Breadboard Mega 2560"},  
@@ -26,8 +26,8 @@
           "toolsDependencies": [
             {
               "packager": "PICSimLab",
-              "name": "pmicronucleus",
-              "version": "2.0a4"
+              "name": "PLoader",
+              "version": "0.8.9"
             }
           ]
         }
@@ -35,22 +35,22 @@
 
       "tools": [
         {
-          "name":"pmicronucleus",
-          "version":"2.0a4",
+          "name":"PLoader",
+          "version":"0.8.9",
           "systems": [
             {
                 "host":"i686-mingw32",
-                "url":"https://github.com/lcgamboa/picsimlab-arduino-package/raw/main/files/pmicronucleus-win.zip",
-                "archiveFileName":"micronucleus-2.0a4-win.zip",
-                "checksum": "SHA-256:30d04b231a71b183a00d869c24914b5b6dc36ac534a81d046e5b5527234151af",
-                "size":"101026"
+                "url":"https://github.com/lcgamboa/picsimlab-arduino-package/raw/main/files/PLoader-win.zip",
+                "archiveFileName":"PLoader-win.zip",
+                "checksum": "SHA-256:8774288e77d204f823f6d4033eb7a79841021918ada6e840d408014c78be6ed8",
+                "size":"90866"
             },
             {
                 "host":"x86_64-linux-gnu",
-                "url":"https://github.com/lcgamboa/picsimlab-arduino-package/raw/main/files/pmicronucleus-linux64.tar.gz",
-                "archiveFileName":"micronucleus-linux64.tar.gz",
-                "checksum": "SHA-256:28c4a0d6aca932660f6caa44772173acb831c0f70a426d9f81e8fd8eea68221e",
-		"size":"9965"
+                "url":"https://github.com/lcgamboa/picsimlab-arduino-package/raw/main/files/PLoader-linux64.tar.gz",
+                "archiveFileName":"PLoader-linux64.tar.gz",
+                "checksum": "SHA-256:e7dfffe10a3b9d75d0fdd21038191b2fb5d16bc54229472e6eb22a9d1bf86e83",
+		"size":"10169"
             }
           ]
         }

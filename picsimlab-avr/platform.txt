@@ -116,13 +116,13 @@ tools.avrdude.bootloader.pattern="{path}/{cmd}" "-C{config}" {bootloader.verbose
 tools.avrdude_remote.upload.pattern=/usr/bin/run-avrdude /tmp/sketch.hex {upload.verbose} -p{build.mcu}
 
 
-## Micronucleus (PICSimLab)
-tools.pmicronucleus.upload.params.verbose=
-tools.pmicronucleus.upload.params.quiet=
-tools.pmicronucleus.path={runtime.tools.micronucleus.path}
-tools.pmicronucleus.cmd=pmicronucleus
-tools.pmicronucleus.cmd.windows=pmicronucleus.exe
-tools.pmicronucleus.upload.pattern="{path}/{cmd}" "{build.path}/{build.project_name}.hex"
+## PLoader (PICSimLab)
+tools.PLoader.upload.params.verbose=
+tools.PLoader.upload.params.quiet=
+tools.PLoader.path={runtime.tools.PLoader.path}
+tools.PLoader.cmd=PLoader
+tools.PLoader.cmd.windows=PLoader.exe
+tools.PLoader.upload.pattern="{path}/{cmd}" "{build.path}/{build.project_name}.hex"
 
 # USB Default Flags
 # Default blank usb manufacturer will be filled in at compile time
