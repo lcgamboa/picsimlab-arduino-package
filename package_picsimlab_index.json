@@ -19,9 +19,9 @@
           "checksum": "SHA-256:446c6c7ccb4599f5e147f1da894ea00972ef2a3a04eff1f874ec14a0d79bfdbd",
           "size": "42202",
           "boards": [
-            {"name": "Arduino Uno"},  
-            {"name": "Breadboard Mega 2560"},  
-            {"name": "Franzininho DIY"}
+            {"name": "PICSimLab - Arduino Uno"},  
+            {"name": "PICSimLab - Breadboard Mega 2560"},  
+            {"name": "PICSimLab - Franzininho DIY"}
           ],
           "toolsDependencies": [
             {
