@@ -5,7 +5,7 @@ menu.opt=Optimization
 
 ##############################################################
 
-uno.name=Arduino Uno
+uno.name=PICSimLab - Arduino Uno
 
 uno.vid.0=0x2341
 uno.pid.0=0x0043
@@ -45,7 +45,7 @@ uno.build.variant=arduino:standard
 
 ##############################################################
 
-mega.name=Breadboard Mega 2560
+mega.name=PICSimLab - Breadboard Mega 2560
 
 mega.vid.0=0x2341
 mega.pid.0=0x0010
@@ -90,7 +90,7 @@ mega.build.mcu=atmega2560
 
 
 #Placa Franzininho DIY
-franzininho-sim.name=Franzininho 
+franzininho-sim.name=PICSimLab - Franzininho DIY
 franzininho-sim.build.mcu=attiny85
 franzininho-sim.build.f_cpu=16000000L
 franzininho-sim.build.board=AVR_ATTINY85

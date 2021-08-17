@@ -16,8 +16,8 @@
           "help": {"online": "https://lcgamboa.github.io/picsimlab_docs/stable/"},
           "url": "https://github.com/lcgamboa/picsimlab-arduino-package/raw/main/picsimlab-avr.zip",
           "archiveFileName": "picsimlab-avr.zip",
-          "checksum": "SHA-256:446c6c7ccb4599f5e147f1da894ea00972ef2a3a04eff1f874ec14a0d79bfdbd",
-          "size": "42202",
+          "checksum": "SHA-256:06c02eaddd9e7d12eab25ac7494db94d11be908c55e00b21ea32c3e1da70774f",
+          "size": "42212",
           "boards": [
             {"name": "PICSimLab - Arduino Uno"},  
             {"name": "PICSimLab - Breadboard Mega 2560"},  
